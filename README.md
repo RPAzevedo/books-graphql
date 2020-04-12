@@ -1,3 +1,7 @@
+# Books and Authors
+
+A simple exercise for GraphQL in JS.
+
 ## Development Setup
 
 ```

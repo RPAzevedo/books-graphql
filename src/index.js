@@ -1,4 +1,4 @@
-const { factorial } = require('./Calculations')
+const { server } = require('./api')
 
-const n = 4
-console.log(`Factorial of ${n} is ${factorial(n)}`)
+// eslint-disable-next-line no-console
+server.listen(4000).then(({ url }) => console.log(`Apollo GraphQL Server is running at ${url}`))
